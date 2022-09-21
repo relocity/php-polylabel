@@ -1,0 +1,18 @@
+{
+    "name": "relocity/php-polylabel",
+    "description": "A fast algorithm for finding polygon pole of inaccessibility, the most distant internal point from the polygon outline (not to be confused with centroid), implemented as a JavaScript library. Useful for optimal placement of a text label on a polygon.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Relocity\\PhpPolylabel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Relocity\\PhpPolylabel\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
