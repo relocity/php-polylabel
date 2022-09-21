@@ -7,10 +7,8 @@ use Relocity\PhpPolylabel\CellQueue;
 
 class Polylabel
 {
-    public function getCenter($geometry, $precision = 1.0)
+    public function getCenter($polygon, $precision = 1.0)
     {
-        $polygon = [$geometry];
-        
         // find the bounding box of the outer ring
         for( $i = 0; $i < count($polygon[0]); $i++ ) {
             $p = $polygon[0][$i];
